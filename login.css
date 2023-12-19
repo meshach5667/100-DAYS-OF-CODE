@@ -1,0 +1,63 @@
+
+.container {
+    width: 580px;
+    
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    margin-block-start: 81px;
+    margin-block-end: 80px;
+    padding: 20px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+    /*display: flex;*/
+   /* flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+  }
+  
+  .flex{
+    display: grid;
+    gap: 50px;
+    margin: 50px 40%;
+  
+  }
+
+  .login{
+    margin:40px 40% auto;
+    text-decoration: underline;
+    color: #4a0a0a;
+
+
+  }
+
+  form, input{
+   width: 230px;
+   height: 50%;
+    color: rgba(1, 28, 52, 1);
+    font-size: 14px;
+    font-weight: 400;
+    gap: 20px;
+   
+   
+  
+   
+    border-radius: 2px;
+  }
+  .btn{
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    border-color: #e20c0c;
+    color: rgb(255, 0, 0);
+    background-color: rgb(46, 46, 62);
+    cursor: pointer;
+    
+   
+   
+   
+
+  }

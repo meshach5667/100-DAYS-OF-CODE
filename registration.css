@@ -1,0 +1,104 @@
+.container {
+    width: 580px;
+    height: 679px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    margin-block-start: 81px;
+    margin-block-end: 80px;
+    padding: 40px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+  }
+  
+  .flex {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .flex label {
+    display: block;
+  }
+  
+  form label {
+    color: rgba(1, 28, 52, 1);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+  }
+  
+  form input,
+  form select {
+    width: 238px;
+    height: 48px;
+    color: rgba(1, 28, 52, 1);
+    font-size: 14px;
+    font-weight: 400;
+    margin-block-start: 10px;
+    margin-block-end: 30px;
+    padding-inline: 10px;
+    display: block;
+    outline: none;
+    border: 1px solid rgba(240, 240, 240, 1); 
+    border-radius: 2px;
+  }
+  
+  form input:focus,
+  form select:focus {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  form input[type="date"]::-webkit-calendar-picker-indicator {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+  
+  form .activity,
+  form .password {
+    width: 500px;
+    height: 48px;
+  }
+  
+  form .track > select ,
+  form .password-l input {
+    margin-block-start: 10px;
+  }
+  
+  form .register-btn {
+    width: 500px;
+    height: 48px;
+    background-color: rgb(196, 46, 46);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    border: none;
+    padding-block: 16px;
+    cursor: pointer;
+  }
+  
+  .container > .terms {
+    width: 463px;
+    height: 25px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-block-start: 16px;
+  }
+  
+  .terms > a {
+    color: rgb(39, 2, 163);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
+
+ 
