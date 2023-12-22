@@ -46,29 +46,6 @@ body {
 
 
 
-.container .circle:nth-child(1) {
-    width: 180px;
-    height: 180px;
-    top: -60px;
-    left: -60px;
-    background: linear-gradient(
-        45deg, #e52424, #0c0763
-    );
-    animation-name: move-up;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-
-.container .circle:nth-child(2) {
-    width: 120px;
-    height: 120px;
-    bottom: -20px;
-    right: -20px;
-    background: linear-gradient(
-        45deg, #d64612, #00fbd1
-    );
-    animation-name: move-down;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-}
 
 .clock {
     width: 350px;
@@ -165,4 +142,36 @@ body {
     z-index: 12;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.frame {
+    border: 10px solid white; 
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.clock-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.clock {
+    width: 100%;
+    height: 100%;
+}
+
+.clock {
+    border: none;
+}
+
+
+.clock::before {
+    width: 15px;
+    height: 15px;
+   
 }
