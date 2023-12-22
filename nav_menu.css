@@ -30,7 +30,9 @@ body {
     -ms-user-select: none;
     user-select: none;
     overflow: hidden;
-    animation: slideIn 1s forwards; /* Add slide-in animation */
+    animation: slideIn 1s forwards; 
+
+    
 }
 
 @keyframes slideIn {
