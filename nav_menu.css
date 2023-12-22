@@ -43,7 +43,7 @@ body {
 }
 
 .navigation__link:hover {
-    color: #ffffff;
+    color: #8e07e1;
     -webkit-text-stroke: 1px #212121;
     transition: 3s;
 }
